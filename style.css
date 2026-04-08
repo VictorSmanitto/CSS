@@ -1,0 +1,41 @@
+body { background-color: black;}
+
+h1 { color:chocolate; background-color:mediumaquamarine;}
+
+p {
+    color:red;
+    background-color: goldenrod;
+}
+
+
+.texto{
+    background-color: navajowhite;
+}
+
+.cor-de-fundo{
+    background-color: hotpink;
+}
+
+#nome{
+    background-color: cornflowerblue;
+    color: white;
+    font-weight: bold;
+}
+
+
+.div-por-fora{
+    background-color: green;
+    display: flex;
+}
+
+.div-por-dentro{
+    background-color: gray;
+    height: 30px;
+    width: 50%;
+    position: relative;
+    
+}
+
+.texto-centralizado{
+    text-align: center;
+}
