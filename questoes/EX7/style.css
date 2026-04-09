@@ -1,0 +1,26 @@
+
+#box1{
+    background-color: cadetblue;
+    padding: 20px;
+    border: 10px solid black;
+}
+#box2{
+    background-color: gold;
+    border-top: 20px solid black;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+    border-bottom: 20px solid black;
+    margin-left: 260px;
+}
+#box3{
+    background-color: indianred;
+    border: 10px solid black;
+    margin-left: 40px;
+}
+p{
+    margin: 0;
+}
+.boxes{
+    width: 200px;
+    height: 200px;
+}
