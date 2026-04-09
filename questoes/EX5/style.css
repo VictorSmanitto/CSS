@@ -1,0 +1,19 @@
+
+#color{
+    color:coral;
+}
+#size{
+    font-size: 2rem;
+}
+#family{
+    font-family: 'caveat';
+}
+#weigth{
+    font-weight: 900;
+}
+#align{
+    text-align: right;
+}
+html{
+    font-size: 30px;
+}
