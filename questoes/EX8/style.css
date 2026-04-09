@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+    
+}
+.conteiner{
+    width: 50%;
+    margin-left: 25%;
+    color: white;
+}
+h1{
+    font-family: 'Libre Baskerville';
+    text-transform: uppercase;
+}
+p{
+    margin-left: 15%;
+}
+img{
+    border: 5px solid white;
+    width: 50%;
+}
