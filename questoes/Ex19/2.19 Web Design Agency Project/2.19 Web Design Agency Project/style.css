@@ -23,16 +23,14 @@ h1 {
 
 
 .left-card {
-  display: inline-block;
+  float: left;
   width: 40%;
-  align-items: center;
   gap: 20px;
 }
 
 .right-card {
-  display: inline-block;
+  float: right;
   width: 40%;
-  align-items: center;
   gap: 20px;
 }
 
@@ -46,4 +44,12 @@ footer {
   text-align: right;
   color: midnightblue;
   clear: both;
+}
+
+.creative{
+  color: darkblue;
+}
+
+.cards{
+  margin-top: 30px;
 }
