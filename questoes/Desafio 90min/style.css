@@ -1,0 +1,81 @@
+.barra{
+    display: flex;
+    gap: 10%;
+    background-color: aqua;
+}
+
+@media (max-width: 768px) {
+    .produtos{
+        display: grid;
+        grid-template-columns: repeat(1, 75%);
+        gap: 10px;
+        row-gap: 30px;
+        justify-content: center;
+    }
+    .produto{
+        background-color: yellow;
+    }
+}
+@media (min-width: 767px) and (max-width: 1100px) {
+    .produtos{
+        display: grid;
+        grid-template-columns: repeat(2, 40%);
+        gap: 10px;
+        row-gap: 30px;
+        justify-content: center;
+    }
+    .produto{
+        background-color: red;
+    }
+}
+@media (min-width: 1101px) {
+    .produtos{
+        display: grid;
+        grid-template-columns: repeat(3, 25%);
+        gap: 20px;
+        row-gap: 50px;
+        justify-content: center;
+    }
+    .produto{
+        background-color: rebeccapurple;
+    }
+}
+.produto{
+    display: grid;
+    grid-template-areas: "imagem" "nome" "descricao";
+    gap: 10px;
+    text-align: center;
+}
+.produto img{
+    grid-area: imagem;
+    width: 100%;
+}
+.produto h1 {
+    grid-area: nome;
+}
+.produto p{
+    grid-area: descricao;
+}
+
+footer{
+    color: lightblue;
+    background-color: darkblue;
+    clear: both;
+}
+.banner{
+    background-color: lightcoral;
+}
+.funcionario{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
+    gap: 5%;
+}
+button{
+    transition: 0.3s;
+    cursor: pointer;
+}
+button:hover{
+    background-color: purple;
+    color: lightgreen;
+    transform: 3;
+}
