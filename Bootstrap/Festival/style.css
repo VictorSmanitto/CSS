@@ -1,4 +1,99 @@
+body {
+    background: linear-gradient(180deg, var(--azul-noite), var(--azul-escuro));
+    color: var(--branco);
+}
+
 .card img{
     height: 200px;
     object-fit: cover;
+    object-fit: contain;
 }
+img{
+    height: 400px;
+    object-fit: cover;
+}
+.btn-topo {
+    position: fixed;
+    right: 14px;
+    bottom: 14px;
+    z-index: 999;
+}
+
+.btn-topo a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 40px;
+    height: 40px;
+
+    border-radius: 20%;
+    background: cyan;
+    color: black;
+    text-decoration: none;
+}
+footer{
+ background-color: lightblue;
+}
+
+
+
+:root {
+    --azul: #0077ff;
+    --azul-escuro: #001f3f;
+    --azul-noite: #0a1f44;
+    --verde: #00ff88;
+    --verde-escuro: #00cc6a;
+    --branco: #ffffff;
+    --cinza: #cccccc;
+  }
+ 
+
+ 
+  /* ── NAV ── */
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 16px 48px;
+    background: linear-gradient(180deg, rgba(13,6,0,0.97) 0%, transparent 100%);
+    backdrop-filter: blur(4px);
+  }
+  .nav-logo {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2rem;
+    color: var(--dourado);
+    letter-spacing: 4px;
+    text-shadow: 0 0 20px rgba(245,197,24,0.5);
+  }
+  .nav-links { display: flex; gap: 32px; list-style: none; }
+  .nav-links a {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    color: var(--branco);
+    text-decoration: none;
+    transition: color 0.3s;
+    position: relative;
+  }
+  .nav-links a::after {
+    content: '';
+    position: absolute; bottom: -4px; left: 0; right: 0; height: 2px;
+    background: var(--verde);
+    transform: scaleX(0); transform-origin: left;
+    transition: transform 0.3s;
+  }
+  .nav-links a:hover { color: var(--verde); }
+  .nav-links a:hover::after { transform: scaleX(1); }
+  .nav-cta {
+    background: var(--vermelho);
+    color: var(--creme) !important;
+    padding: 8px 24px !important;
+    border: 2px solid var(--dourado);
+    transition: background 0.3s, color 0.3s !important;
+  }
+  .nav-cta:hover { background: var(--dourado) !important; color: var(--marrom) !important; }
+  .nav-cta::after { display: none !important; }
+ 
+  #hero{
+    margin-top: 80px
+  }
